@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница авторизации</title>
+</head>
+<body>
+    <form action="">
+        <div class="imgcontainer">
+          <img src="../accents/user-regular.svg" alt="Avatar" class="avatar">
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>ФИО</b></label>
+          <input type="text" placeholder="Введите ФИО: " name="uname" required>
+      
+          <label for="psw"><b>Пароль</b></label>
+          <input type="password" placeholder="Введите пароль" name="psw" required>
+      
+          <button type="submit"><a href="profile.html">Войти</a></button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Запомнить меня
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+          <span class="psw">Забыли<a href="#">пароль</a></span>
+          <span class="">Нет аккаунта<a href="../src/registration.html">Зарегистрироваться</a></span>
+        </div>
+      </form>
+</body>
+</html>
